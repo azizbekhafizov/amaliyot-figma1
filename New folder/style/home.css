@@ -1,0 +1,179 @@
+.home_section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 55px;
+  max-height: max-content;
+  padding-bottom: 25px;
+}
+
+.home_left {
+  flex: 1;
+}
+.home_left .title {
+  font-size: 48px;
+  color: #1f2e35;
+  line-height: 64px;
+}
+.home_left .title span {
+  color: #ee4248;
+}
+.home_left .subtitle {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #1f2e35;
+}
+.home_left button {
+  margin-top: 25px;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #ee4248;
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.home_image {
+  flex: 1;
+}
+
+.description_section {
+  background-color: #f1f1f1;
+  margin-top: 75px;
+}
+
+.inner_description_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.description_section_image {
+}
+
+.description_info {
+  width: 520px;
+}
+.description_info span {
+  color: #ee4248;
+}
+
+.description_info .description_title {
+  font-size: 38px;
+}
+
+.description_info .description {
+  margin-top: 25px;
+  color: #1f2e35;
+}
+
+h1{
+  text-align: center;
+}
+
+.card-wrapper{
+  width: 100%;
+  margin-top: 75px;
+  justify-content: center;
+  gap: 25px;
+  display: flex;
+}
+
+.card{
+  width: 363px;
+  height: 360px;
+}
+
+.card h2{
+  padding-top: 8px;
+  color: #EE4248;
+}
+.card p{
+  line-height: 27px;
+  padding-top: 8px;
+  color: #30444E;
+  width: 255px;
+}
+
+.card button{
+  background-color: #EE4248;
+  margin-top: 8px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 12px  ;
+}
+
+/* footer qism  */
+
+
+
+
+
+
+.footer{
+  display: flex;
+  margin-top: 75px;
+}
+
+.footer_card1 h3{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+}
+
+.footer_card1 p{
+  width: 315px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+}
+
+.footer_card1{
+margin-left: 90px;
+}
+
+.footer_card2{
+  margin-top: 35px;
+margin-left: 250px;
+}
+
+.footer_card2 h1{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  
+}
+
+.footer_card2 p{
+  width: 269px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+}
+
+
+
+
+.footer-bottom { 
+  height: 54px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #e1dcd5;
+  background-color: #EE4248;
+  padding-top: 10px;
+}
+
+.footer-bottom p{
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 22px;
+  color: white;
+  /* padding: 8px; */
+}
